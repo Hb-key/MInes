@@ -22,7 +22,7 @@ void Game()
 	Show_board(mine);
 	Player(mine, show);
 }
-
+//初始化棋盘
 void Init_board(char mine[ROW][COL], char show[ROW][COL])
 {
 	for (int i = 1; i < ROW-1; i++)
