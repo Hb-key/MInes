@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_DEPRECATE
 
 #include"Mines.h"
-
+//菜单
 void menu()    
 {
 	printf("************************************\n");
