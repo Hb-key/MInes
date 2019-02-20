@@ -9,13 +9,13 @@
 
 void menu();
 void __menu();
-void Choose();//Ñ¡²Ù×÷
+void Choose();//é€‰æ‹©æ“ä½œ
 void Game();
-void Init_board(char mine[ROW][COL], char show[ROW][COL]);//³õÊ¼»¯
-void Display_board(char show[ROW][COL]);//Õ¹Ê¾
-void Set_mine(char mine[ROW][COL]);//ÉèÖÃÀ×µÄÎ»ÖÃ
+void Init_board(char mine[ROW][COL], char show[ROW][COL]);//åˆå§‹åŒ–
+void Display_board(char show[ROW][COL]);//å±•ç¤º
+void Set_mine(char mine[ROW][COL]);//è®¾ç½®é›·çš„ä½ç½®
 void Show_board(char mine[ROW][COL]);
-void Player(char mine[ROW][COL], char show[ROW][COL]);//Íæ¼Ò×ßÆå
- int Get_mine(char mine[ROW][COL], int i, int j);//²éÀ×
-void Open_board(char mine[ROW][COL], char show[ROW][COL], int i, int j);//ÓöÀ×Õ¹¿ª
-void Move_mine(char mine[ROW][COL], int i, int j);//µÚÒ»´Î×ßÆåÓöÀ×ÒÆ¿ª
+void Player(char mine[ROW][COL], char show[ROW][COL]);//ç©å®¶èµ°æ£‹
+ int Get_mine(char mine[ROW][COL], int i, int j);//æŸ¥é›·
+void Open_board(char mine[ROW][COL], char show[ROW][COL], int i, int j);//é‡é›·å±•å¼€
+void Move_mine(char mine[ROW][COL], int i, int j);//ç¬¬ä¸€æ¬¡èµ°æ£‹é‡é›·ç§»å¼€
